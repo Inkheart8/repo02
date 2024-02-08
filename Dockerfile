@@ -2,9 +2,10 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/zxypm/repo1.git
+RUN git clone https://github.com/Inkheart8/repo01.git
 
-WORKDIR /repo1
+
+WORKDIR /repo01
 
 RUN npm install
 
